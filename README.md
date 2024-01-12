@@ -66,7 +66,7 @@
 
 ## Presentation Video <a name="video-presentation"></a>
 
-- [Presentation Video Link](https://www.loom.com/share/d0eaf9461dbe4d77a1625b0a6e1c2fb0?sid=0c81eb6c-c0a4-4e20-9121-5d1689a55d3c)
+- [Presentation Video Link](https://www.loom.com/share/d66bcd0a84ff445caefb0cc7b82771a1?sid=920556fe-08cf-410d-bf47-a162c5b54fd2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
