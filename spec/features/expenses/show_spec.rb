@@ -30,6 +30,6 @@ RSpec.feature 'Expenses::Shows', type: :feature do
   scenario 'displays expense details' do
     expect(page).to have_content(@expense1.name)
     expect(page).to have_content(@expense1.total_payment_amount)
-    expect(page).to have_link('New Payments', href: new_expense_payment_path(@expense1))
+    expect(page).to have_link('Add Transaction', href: new_expense_payment_path(@expense1))
   end
 end

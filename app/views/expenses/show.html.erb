@@ -1,7 +1,7 @@
 <section class="expense-show">
   <nav class="common-nav">
     <%= link_to "←", expenses_path, class: "back-home" %>
-    <div class="page-name">Payments</div>
+    <div class="page-name">TRANSACTIONS</div>
   </nav>
 
   <li class="expense-item">
@@ -32,6 +32,6 @@
   </ul>
 
   <div class="new-expense">
-    <%= link_to 'New Payments', new_expense_payment_path(@expense), class: "new-expense-link" %>
+    <%= link_to 'Add Transaction', new_expense_payment_path(@expense), class: "new-expense-link" %>
   </div>
 </section>

@@ -1,7 +1,7 @@
 <section class="home-section">
   <div class="home-nav">
     <%= link_to "Budgetify", expenses_path, class: 'logo' %>
-    <div class="page-name">Expenses</div>
+    <div class="page-name">CATEGORIES</div>
     <%= button_to "log out", destroy_user_session_path, method: :delete, class: 'log-out' %>
   </div>
 
@@ -24,6 +24,6 @@
   </ul>
 
   <div class="new-expense">
-    <%= link_to 'New Expense', new_expense_path, class: "new-expense-link" %>
+    <%= link_to 'Add Category', new_expense_path, class: "new-expense-link" %>
   </div>
 </section>

@@ -26,14 +26,14 @@ RSpec.feature 'Payments::News', type: :feature do
     fill_in 'payment_name', with: 'Test Payment'
     fill_in 'payment_amount', with: 100.00
 
-    click_button 'Create Payment'
+    click_button 'Create Transaction'
 
-    expect(page).to have_content('New Payment')
+    expect(page).to have_content('New Transaction')
   end
 
   scenario 'User tries to create a new payment with invalid data' do
-    click_button 'Create Payment'
+    click_button 'Create Transaction'
 
-    expect(page).to have_content('New Payment')
+    expect(page).to have_content('New Transaction')
   end
 end

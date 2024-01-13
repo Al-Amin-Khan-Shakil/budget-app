@@ -27,12 +27,12 @@ RSpec.feature 'Expenses::News', type: :feature do
     attach_file 'expense_icon', Rails.root.join('spec', 'fixtures', 'files', 'icon.png')
     click_button 'Save'
 
-    expect(page).to have_content('New Expense')
+    expect(page).to have_content('Add Category')
   end
 
   scenario 'User tries to create a new expense with invalid data' do
     click_button 'Save'
 
-    expect(page).to have_content('New Expense')
+    expect(page).to have_content('New Category')
   end
 end

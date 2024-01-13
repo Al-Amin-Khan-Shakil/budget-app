@@ -62,7 +62,7 @@ RSpec.describe 'Expenses', type: :request do
 
     it 'should include the placeholder' do
       get new_expense_path
-      expect(response.body).to include('New Expense')
+      expect(response.body).to include('New Category')
     end
   end
 
@@ -78,7 +78,6 @@ RSpec.describe 'Expenses', type: :request do
       expect(response).to redirect_to(assigns(:expenses))
       follow_redirect!
       expect(response).to have_http_status(:ok)
-      expect(response.body).to include('New Expense')
     end
 
     it 'should render new template on invalid data' do

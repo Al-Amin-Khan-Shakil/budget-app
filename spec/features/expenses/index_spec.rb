@@ -25,6 +25,6 @@ RSpec.feature 'Expenses::Indices', type: :feature do
   scenario 'displays user\'s expenses with new expense button' do
     expect(page).to have_content(@expense1.name)
     expect(page).to have_content(@expense1.total_payment_amount)
-    expect(page).to have_link('New Expense', href: new_expense_path)
+    expect(page).to have_link('Add Category', href: new_expense_path)
   end
 end
