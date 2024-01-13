@@ -12,12 +12,21 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #3878c2;
+  background-color: #3778c2;
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+}
+
+.page-name {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 1.5rem;
 }
 
 .logo {
@@ -29,7 +38,7 @@
 
 .log-out {
   padding: 3px 8px;
-  color: #3878c2;
+  color: #3778c2;
   border: 0;
   background-color: whitesmoke;
   font-weight: 700;
@@ -98,7 +107,7 @@
   position: sticky;
   bottom: 0;
   width: 100vw;
-  background-color: #60b524;
+  background-color: #5fb523;
   display: flex;
   justify-content: center;
   align-items: center;

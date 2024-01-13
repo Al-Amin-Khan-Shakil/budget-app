@@ -144,7 +144,7 @@ If you like this project give it a star and share with your friends.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Jubaer Maruf to help me install ROR and making this project.
+I would like to thank [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the design of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

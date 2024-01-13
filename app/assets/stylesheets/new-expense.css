@@ -10,8 +10,9 @@
 
 .common-nav {
   width: 100vw;
-  background-color: #3878c2;
+  background-color: #3778c2;
   padding: 10px;
+  position: relative;
 }
 
 .back-home {
